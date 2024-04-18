@@ -1,7 +1,7 @@
  # CodSoft
 **CodSoft Internship :**
 **Level 1:**
-Task1:Landing Page  
+Task1:Landing Page
 Task2:Portfolio
 Task3:Calculator 
 
