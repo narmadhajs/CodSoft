@@ -1,0 +1,70 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #e6f2ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    background-color: #004d99;
+}
+
+h2 {
+    font-size: 24px;
+    color: #004d99;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #004d99;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #004d99;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#draggableImage {
+    width: 200px; 
+    height: auto; 
+    position: absolute;
+    cursor: move; 
+}
