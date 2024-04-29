@@ -1,0 +1,142 @@
+
+h4 {
+    color: green;
+
+}
+a1,a5,a8{
+background-color: yellow;
+
+
+}  
+h7,h8{
+    color: blue;
+}
+span{
+    color: black;
+    
+    
+}
+section{
+    background-color:rosybrown ;
+    padding-left: 10%;
+    overflow: auto;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+h2{
+    padding-right:-30%  ;
+}
+h3 {
+    color:crimson;
+}
+h3:hover{
+    color: black;
+}
+h4{
+    padding-left: 15%;
+}
+    
+h4:hover{
+   opacity: 75%;
+}
+h1,h2 {
+        
+        padding: -15px;
+        text-align: center;
+        color:black;
+        font-size: 8em;
+        transition: 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+ h1,h2 {
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+                     0 3px 0 #ccc, 0 4px 0 #ccc,
+                     0 5px 0 #ccc, 0 6px 0 #ccc,
+                     0 7px 0 #ccc, 0 8px 0 #ccc,
+                     0 9px 0 #ccc, 0 10px 0 #ccc,
+                     0 11px 0 #ccc, 0 12px 0 #ccc,
+                     0 20px 30px rgba(0, 0, 0, 0.5);
+    }
+    
+  section {animation: mymove 3s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes mymove {
+    from {top:0px; background-color: yellow;}
+    to {top: 200px; background-color:rosybrown;}
+  }
+  h4{ animation: animate 2s linear infinite;
+}
+  @keyframes animate {
+    0% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+h1:hover{
+        transform: translateY(-10px);
+        
+      }
+    
+    
+    h2:hover {
+        transform: translateY(-10px);
+      }
+      h3:hover {
+        transform: translateY(-10px);
+
+      }
+      
+    
+     h1{ font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    }
+    body  {
+      background-image: url("img_tree.gif");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position-y: center;
+      background-position-x: center;
+      background-size: 300px 600px;
+    }
+    .l{
+      padding-left: 44%;
+
+}
+    .l:hover{
+      transform: translateY(-10px);
+
+    }
+    .my{
+      border-radius: 50%;
+      padding:3%;
+      padding-left: 30%;
+      padding-right: 30%;
+      padding-bottom: -40%;
+      align-items: center;
+      border-radius: 5px double black;
+
+
+    }
+    .lap{
+      float: right;
+      border-radius: 44%;
+    }
+   
+
+
+  
+
+
+    
